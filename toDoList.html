@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwesome Link -->
+    <script
+      src="https://kit.fontawesome.com/29376ab54e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS Style Sheet -->
+    <link rel="stylesheet" href="./assets/css/todolist.css"/>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/img/favicon/Paomedia-Small-N-Flat-Sign-check.ico" type="image/x-icon">
+    <title>To Do List Challenge</title>
+</head>
+<body>
+    <div class="todolist-container">
+        <h2>To Do List</h2>
+  
+        <div class="add-task">
+          <h4>Nueva tarea:</h4>
+          <div class="inp-btn">
+            <div class="textInputWrapper">
+              <input
+                id="list"
+                placeholder="Escriba una nueva tarea"
+                type="text"
+                class="textInput"
+              />
+            </div>
+            <button id="add" type="submit">Agregar</button>
+          </div>
+        </div>
+  
+        <div class="counter">
+          <p>Total: <span id="total"></span></p>
+          <p>Realizadas: <span id="done"></span></p>
+        </div>
+  
+        <div class="task-list">
+          <ul id="task_list"></ul>
+        </div>
+      </div>
+  
+      <script src="./assets/js/todolist.js"></script>
+    
+</body>
+</html>
